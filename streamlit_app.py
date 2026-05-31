@@ -2,10 +2,10 @@ import streamlit as st
 from generate_recipe import generate_recipe
 import json
 
-st.set_page_config(page_title="Cook With Caitie", page_icon="🍳", layout="centered")
+st.set_page_config(page_title="Cooking With Caitie", page_icon="🍳", layout="centered")
 
 # --- HEADER ---
-st.title("🍳 Cook With Caitie")
+st.title("🍳 Cooking With Caitie")
 st.markdown(
     "Welcome! Enter your available ingredients and any allergens to avoid, "
     "and I’ll generate a safe, delicious recipe just for you."
