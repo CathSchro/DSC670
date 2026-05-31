@@ -33,7 +33,7 @@ Rules:
 """
 
     response = client.chat.completions.create(
-        model="ft:gpt-3.5-turbo:yourname:allergen-recipe-model",
+        model="ft:gpt-3.5-turbo-0125:personal:allergen-recipe-model:De9dV0Vl",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.4
     )
